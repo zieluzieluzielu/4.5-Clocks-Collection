@@ -9,6 +9,7 @@ import java.time.*;
 public class ClocksCollectionApplication {
 
     public static void main(String[] args) {
+        SpringApplication.run(ClocksCollectionApplication.class, args);
 
         //nested class Clock
         class Clock {
